@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- スマホ対応のため追加 -->
+  <title>Central Cleats Shop</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <style>
+    /* 全体の余白やフォント設定 */
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      padding: 0;
+    }
+
+    /* バナー画像の設定 */
+    .banner img {
+      width: 100%; 
+      height: auto;
+      display: block;
+    }
+
+    /* ヘッダーのスタイル */
+    h1, h2, h3, p {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    /* 商品一覧コンテナ */
+    .product-container {
+      display: flex;
+      flex-wrap: wrap; /* アイテムが画面幅に合わせて折り返す */
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    /* 商品カード */
+    .product {
+      width: 100%;
+      max-width: 200px; /* 最大幅を設定 */
+      text-align: center;
+    }
+
+    /* 商品画像のサイズ調整 */
+    .product img {
+      width: 100%; 
+      height: auto; /* 画像が縦横比を維持して縮小される */
+    }
+
+    /* 画面幅600px以上のデバイスに対応（タブレットやPC） */
+    @media screen and (min-width: 600px) {
+      .product {
+        width: calc(33.333% - 20px); /* 3列表示 */
+      }
+    }
+
+    /* 画面幅400px未満のデバイスに対応（小さなスマホ） */
+    @media screen and (max-width: 400px) {
+      .product {
+        width: 100%; /* 1列表示 */
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="banner">
+  <img src="image/yudai.jpg" alt="yudai">
+  </div>
+
+  <h1>箱なしで全品 -1000円!</h1>
+  <h2>Items</h2>
+
+  <div class="product-container">
+    <div class="product">
+      <a href="#"><img src="image/1.jpeg" alt="NIKE ALPHA MENACE SHARK 4 ハイパーロイヤル・ブラック"></a>
+      
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/2.jpeg" alt="NIKE ALPHA MENACE SHARK 4 ホワイト・メタリックシルバー"></a>
+      
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/3.jpeg" alt="cleats 3"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/4.jpeg" alt="cleats 4"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/5.jpeg" alt="cleats 5"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/6.jpeg" alt="cleats 6"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/7.jpeg" alt="cleats 7"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/8.jpeg" alt="cleats 8"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/9.jpeg" alt="cleats 9"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/10.jpeg" alt="cleats 10"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/11.jpeg" alt="cleats 11"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/12.jpeg" alt="cleats 12"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/13.jpeg" alt="cleats 13"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/14.jpeg" alt="cleats 14"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/15.jpeg" alt="cleats 15"></a>
+      <p>14000円</p>
+    </div>
+
+    <div class="product">
+      <a href="#"><img src="image/16.jpeg" alt="cleats 16"></a>
+      <p>14000円</p>
+    </div>
+  </div>
+
+</body>
+</html>
